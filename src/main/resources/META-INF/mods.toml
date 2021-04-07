@@ -37,7 +37,7 @@ displayName="Surrealcraft" #mandatory
 logoFile="surrealcraft.png" #optional
 
 # A text field displayed in the mod UI
-credits="Thanks for this example mod goes to Java" #optional
+credits="Thanks goes to everyone on the Mustardd team (basically Charelle, Jaden, and Jordon). Thanks to Ms. Adamson for being a super duper cool teacher. Thank you to TurtyWurty for doing modding tutorials." #optional
 
 # A text field displayed in the mod UI
 authors="Charelle Constantino, Jordon Hong, and Jaden Jenson" #optional
@@ -48,7 +48,7 @@ Ever wanted magical crystals for your Minecraft world? Well, now you can with Su
 
 Introducing new ores that drop beautiful crystals, including Sapphire, Citrine, Ruby, and more!
 
-Use the crystal to craft whimsical wands that have magical crystal superpowers.
+Use the crystals to craft whimsical wands that have magical crystal superpowers.
 '''
 
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
