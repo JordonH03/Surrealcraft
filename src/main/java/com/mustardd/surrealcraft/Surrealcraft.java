@@ -1,9 +1,12 @@
 package com.mustardd.surrealcraft;
 
+import com.mustardd.surrealcraft.init.BlockInit;
+import com.mustardd.surrealcraft.init.ItemInit;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.RegistryEvent;
+import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.InterModComms;
 import net.minecraftforge.fml.common.Mod;
@@ -24,13 +27,21 @@ public class Surrealcraft
 {
     // Directly reference a log4j logger.
     private static final Logger LOGGER = LogManager.getLogger();
-    //happy easter
-    // yuh
+    // Initialize string constant for mod ID
+    public  static final String MOD_ID = "surrealcraft";
+
     public Surrealcraft() {
+        // Initialize a variable for the bus for ease of use
+        IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+
         // Register the setup method for modloading
-        FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
+        bus.addListener(this::setup);
         // Register the doClientStuff method for modloading
-        FMLJavaModLoadingContext.get().getModEventBus().addListener(this::doClientStuff);
+        bus.addListener(this::doClientStuff);
+        // Register the ITEMS
+        ItemInit.ITEMS.register(bus);
+        // Register the BLOCKS
+        BlockInit.BLOCKS.register(bus);
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
