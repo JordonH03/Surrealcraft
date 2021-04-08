@@ -28,7 +28,7 @@
             },
             {
               "type": "minecraft:item",
-              "name": "surrealcraft:citrine",
+              "name": "surrealcraft:citrine_gem",
               "functions": [
                 {
                   "function": "minecraft:apply_bonus",
