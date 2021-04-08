@@ -13,7 +13,7 @@ public class ItemInit {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, Surrealcraft.MOD_ID);
 
     // Block items
-    public static final RegistryObject<BlockItem> CITRINE_ORE = ITEMS.register("citrine_ore",
-            () -> new BlockItem(BlockInit.CITRINE_ORE.get(), // Gets block from BLockInit
-                    new Item.Properties().tab(ItemGroup.TAB_MATERIALS))); // Places ore in Materials tab
+
+    // registers Citrine ore item (name, location of block item represents, location in creative mode tab
+    public static final RegistryObject<BlockItem> CITRINE_ORE = ITEMS.register("citrine_ore", () -> new BlockItem(BlockInit.CITRINE_ORE.get(), new Item.Properties().tab(ItemGroup.TAB_BUILDING_BLOCKS)));
 }

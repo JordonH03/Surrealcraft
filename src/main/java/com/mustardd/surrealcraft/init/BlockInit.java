@@ -20,7 +20,7 @@ public class BlockInit {
                     .of(Material.STONE) // Craft with cake and purple dye
                     .strength(3.0f,3.0f) // First float is hardness to break, second float is resistance to explosion
                     .harvestTool(ToolType.PICKAXE) // The type of tool that will break it the fastest
-                    .harvestLevel(3) // The level of tool needed. 3 is diamond
+                    .harvestLevel(2) // The level of tool needed. 2 is iron
                     .sound(SoundType.STONE) // Sound upon breaking
                     .requiresCorrectToolForDrops()
             )

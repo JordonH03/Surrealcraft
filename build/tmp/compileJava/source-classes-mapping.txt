@@ -1,8 +1,8 @@
 com/mustardd/surrealcraft/world/OreGeneration.java
  com.mustardd.surrealcraft.world.OreGeneration
-com/mustardd/surrealcraft/init/ItemInit.java
- com.mustardd.surrealcraft.init.ItemInit
 com/mustardd/surrealcraft/init/BlockInit.java
  com.mustardd.surrealcraft.init.BlockInit
+com/mustardd/surrealcraft/init/ItemInit.java
+ com.mustardd.surrealcraft.init.ItemInit
 com/mustardd/surrealcraft/Surrealcraft.java
  com.mustardd.surrealcraft.Surrealcraft
