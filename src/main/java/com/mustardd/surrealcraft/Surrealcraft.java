@@ -38,9 +38,9 @@ public class Surrealcraft
         bus.addListener(this::setup);
         // Register the doClientStuff method for modloading
         bus.addListener(this::doClientStuff);
-        // Register the ITEMS
+        // Register the ITEMS in the game
         ItemInit.ITEMS.register(bus);
-        // Register the BLOCKS
+        // Register the BLOCKS in the game
         BlockInit.BLOCKS.register(bus);
 
         // Register ourselves for server and other game events we are interested in
@@ -51,9 +51,5 @@ public class Surrealcraft
     {}
 
     private void doClientStuff(final FMLClientSetupEvent event) {}
-
-    // You can use SubscribeEvent and let the Event Bus discover methods to call
-    @SubscribeEvent
-    public void onServerStarting(FMLServerStartingEvent event) {}
 
 }
