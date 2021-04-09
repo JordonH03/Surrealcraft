@@ -13,7 +13,7 @@
     </envs>
     <option name="MAIN_CLASS_NAME" value="net.minecraftforge.userdev.LaunchTesting" />
     <module name="Surrealcraft.main" />
-    <option name="PROGRAM_PARAMETERS" value="--mod examplemod --all --output $PROJECT_DIR$/src/generated/resources --existing $PROJECT_DIR$/src/main/resources" />
+    <option name="PROGRAM_PARAMETERS" value="--mod examplemod --all --output /Users/jordonhong/Desktop/Surrealcraft/src/generated/resources --existing /Users/jordonhong/Desktop/Surrealcraft/src/main/resources" />
     <option name="VM_PARAMETERS" value="-Dforge.logging.console.level=debug -Dforge.logging.markers=REGISTRIES" />
     <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/run" />
     <method v="2">
