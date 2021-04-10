@@ -17,7 +17,7 @@ public class BlockInit {
 
     // Register the ores
     public static final RegistryObject<Block> CITRINE_ORE = BLOCKS.register("citrine_ore", () -> new OreBlock(AbstractBlock.Properties
-                    .of(Material.STONE) // Craft with cake and purple dye
+                    .of(Material.STONE)
                     .strength(3.0f,3.0f) // First float is hardness to break, second float is resistance to explosion
                     .harvestTool(ToolType.PICKAXE) // The type of tool that will break it the fastest
                     .harvestLevel(2) // The level of tool needed. 2 is iron

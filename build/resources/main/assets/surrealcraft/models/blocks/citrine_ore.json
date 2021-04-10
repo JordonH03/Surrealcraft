@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "surrealcraft:items/citrine_ore_2"
+    "all": "surrealcraft:block/citrine_ore_2"
   }
 }
