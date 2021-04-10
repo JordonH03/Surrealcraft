@@ -14,7 +14,7 @@ public class ItemInit {
 
     // Block items
 
-    // registers Citrine ore item (name, location of block item represents, location in creative mode tab
+    // registers Citrine ore item (name, location of block the item represents, location in creative mode tab)
     public static final RegistryObject<BlockItem> CITRINE_ORE = ITEMS.register("citrine_ore",
             () -> new BlockItem(BlockInit.CITRINE_ORE.get(), new Item.Properties().tab(ItemGroup.TAB_BUILDING_BLOCKS)));
 
