@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
-  "textures.items": {
+  "textures": {
     "layer0": "item/citrine_wand"
   }
 }
