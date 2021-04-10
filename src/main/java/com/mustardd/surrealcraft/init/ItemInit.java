@@ -24,4 +24,8 @@ public class ItemInit {
     // registers Citrine gem item
     public static final RegistryObject<Item> CITRINE_GEM = ITEMS.register("citrine_gem",
             () -> new Item(new Item.Properties().tab(ItemGroup.TAB_MISC)));
+
+    // registers Citrine wand item
+    public static final RegistryObject<Item> CITRINE_WAND = ITEMS.register("citrine_wand",
+            () -> new Item(new Item.Properties().tab(ItemGroup.TAB_COMBAT)));
 }
