@@ -12,13 +12,6 @@ public class ItemInit {
     // Initialize the item register
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, Surrealcraft.MOD_ID);
 
-    // Block items
-
-    // registers Citrine ore item (name, location of block the item represents, location in creative mode tab)
-    public static final RegistryObject<BlockItem> CITRINE_ORE = ITEMS.register("citrine_ore",
-            () -> new BlockItem(BlockInit.CITRINE_ORE.get(), new Item.Properties().tab(ItemGroup.TAB_BUILDING_BLOCKS)));
-
-
     // Raw Material Items
 
     // registers Citrine gem item
@@ -28,4 +21,11 @@ public class ItemInit {
     // registers Citrine wand item
     public static final RegistryObject<Item> CITRINE_WAND = ITEMS.register("citrine_wand",
             () -> new Item(new Item.Properties().tab(ItemGroup.TAB_COMBAT)));
+
+    // Block items
+
+    // registers Citrine ore item (name, location of block the item represents, location in creative mode tab)
+    public static final RegistryObject<BlockItem> CITRINE_ORE = ITEMS.register("citrine_ore",
+            () -> new BlockItem(BlockInit.CITRINE_ORE.get(), new Item.Properties().tab(ItemGroup.TAB_BUILDING_BLOCKS)));
+
 }
