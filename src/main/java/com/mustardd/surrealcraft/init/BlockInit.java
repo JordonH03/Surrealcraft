@@ -25,4 +25,15 @@ public class BlockInit {
                     .requiresCorrectToolForDrops()
             )
     );
+
+    //registering ruby ore
+    public static final RegistryObject<Block> RUBY_ORE = BLOCKS.register("ruby_ore", () -> new OreBlock(AbstractBlock.Properties
+                    .of(Material.STONE)
+                    .strength(3.0f,3.0f)
+                    .harvestTool(ToolType.PICKAXE)
+                    .harvestLevel(2)
+                    .sound(SoundType.STONE)
+                    .requiresCorrectToolForDrops()
+            )
+    );
 }

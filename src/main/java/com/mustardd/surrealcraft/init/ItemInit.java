@@ -31,4 +31,8 @@ public class ItemInit {
     public static final RegistryObject<BlockItem> CITRINE_ORE = ITEMS.register("citrine_ore",
             () -> new BlockItem(BlockInit.CITRINE_ORE.get(), new Item.Properties().tab(ItemGroup.TAB_BUILDING_BLOCKS)));
 
+    // registers Ruby ore item
+    public static final RegistryObject<BlockItem> RUBY_ORE = ITEMS.register("ruby_ore",
+            () -> new BlockItem(BlockInit.RUBY_ORE.get(), new Item.Properties().tab(ItemGroup.TAB_BUILDING_BLOCKS)));
+
 }
