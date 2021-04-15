@@ -1,6 +1,7 @@
 package com.mustardd.surrealcraft.init;
 
 import com.mustardd.surrealcraft.Surrealcraft;
+import com.mustardd.surrealcraft.advanced_items.CitrineWand;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
@@ -22,8 +23,8 @@ public class ItemInit {
             () -> new Item(new Item.Properties().tab(ItemGroup.TAB_MISC)));
 
     // registers Citrine wand item
-    public static final RegistryObject<Item> CITRINE_WAND = ITEMS.register("citrine_wand",
-            () -> new Item(new Item.Properties().tab(ItemGroup.TAB_COMBAT)));
+    public static final RegistryObject<CitrineWand> CITRINE_WAND = ITEMS.register("citrine_wand",
+            () -> new CitrineWand(new Item.Properties().tab(ItemGroup.TAB_COMBAT).stacksTo(1).setNoRepair().durability(50)));
 
     // Block items
 
