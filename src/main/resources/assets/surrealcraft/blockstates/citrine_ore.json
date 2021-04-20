@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "surrealcraft:blocks/citrine_ore"
+      "model": "surrealcraft:block/citrine_ore"
     }
   }
 }
