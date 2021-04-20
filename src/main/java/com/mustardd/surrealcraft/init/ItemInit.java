@@ -22,6 +22,10 @@ public class ItemInit {
     public static final RegistryObject<Item> RUBY_GEM = ITEMS.register("ruby_gem",
             () -> new Item(new Item.Properties().tab(ItemGroup.TAB_MISC)));
 
+    //registers Sapphire gem
+    public static final RegistryObject<Item> SAPPHIRE_GEM = ITEMS.register("sapphire_gem",
+            () -> new Item(new Item.Properties().tab(ItemGroup.TAB_MISC)));
+
     // registers Citrine wand item
     public static final RegistryObject<CitrineWand> CITRINE_WAND = ITEMS.register("citrine_wand",
             () -> new CitrineWand(new Item.Properties().tab(ItemGroup.TAB_COMBAT).stacksTo(1).setNoRepair().durability(50)));
