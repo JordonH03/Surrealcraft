@@ -40,4 +40,8 @@ public class ItemInit {
     public static final RegistryObject<BlockItem> RUBY_ORE = ITEMS.register("ruby_ore",
             () -> new BlockItem(BlockInit.RUBY_ORE.get(), new Item.Properties().tab(ItemGroup.TAB_BUILDING_BLOCKS)));
 
+    // registers Sapphire ore item
+    public static final RegistryObject<BlockItem> SAPPHIRE_ORE = ITEMS.register("sapphire_ore",
+            () -> new BlockItem(BlockInit.SAPPHIRE_ORE.get(), new Item.Properties().tab(ItemGroup.TAB_BUILDING_BLOCKS)));
+
 }

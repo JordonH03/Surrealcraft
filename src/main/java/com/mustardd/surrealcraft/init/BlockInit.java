@@ -36,4 +36,15 @@ public class BlockInit {
                     .requiresCorrectToolForDrops()
             )
     );
+
+    //registering sapphire ore
+    public static final RegistryObject<Block> SAPPHIRE_ORE = BLOCKS.register("sapphire_ore", () -> new OreBlock(AbstractBlock.Properties
+                    .of(Material.STONE)
+                    .strength(3.0f,3.0f)
+                    .harvestTool(ToolType.PICKAXE)
+                    .harvestLevel(2)
+                    .sound(SoundType.STONE)
+                    .requiresCorrectToolForDrops()
+            )
+    );
 }
