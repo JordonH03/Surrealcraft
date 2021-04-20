@@ -26,4 +26,5 @@ public class OreGeneration {
                         .squared().count(count) // Defines number of ore veins per chunk
         );
     }
+
 }
