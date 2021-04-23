@@ -1,7 +1,37 @@
 {
+  "minecraft:recipes/decorations/torch": {
+    "criteria": {
+      "has_stone_pickaxe": "2021-04-22 22:17:00 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget_from_blasting": {
+    "criteria": {
+      "has_iron_pickaxe": "2021-04-22 22:17:01 -0500"
+    },
+    "done": true
+  },
+  "minecraft:story/iron_tools": {
+    "criteria": {
+      "iron_pickaxe": "2021-04-22 22:17:01 -0500"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/chest": {
     "criteria": {
       "has_lots_of_items": "2021-04-21 21:27:26 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget_from_smelting": {
+    "criteria": {
+      "has_iron_pickaxe": "2021-04-22 22:17:01 -0500"
+    },
+    "done": true
+  },
+  "minecraft:story/upgrade_tools": {
+    "criteria": {
+      "stone_pickaxe": "2021-04-22 22:17:00 -0500"
     },
     "done": true
   },

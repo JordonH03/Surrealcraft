@@ -2,10 +2,10 @@ com/mustardd/surrealcraft/world/OreGeneration.java
  com.mustardd.surrealcraft.world.OreGeneration
 com/mustardd/surrealcraft/init/BlockInit.java
  com.mustardd.surrealcraft.init.BlockInit
-com/mustardd/surrealcraft/event/ClientEvents.java
- com.mustardd.surrealcraft.event.ClientEvents
-com/mustardd/surrealcraft/event/EventHandler.java
- com.mustardd.surrealcraft.event.EventHandler
+com/mustardd/surrealcraft/util/ModArmorMaterial.java
+ com.mustardd.surrealcraft.util.ModArmorMaterial
+com/mustardd/surrealcraft/Surrealcraft.java
+ com.mustardd.surrealcraft.Surrealcraft
 com/mustardd/surrealcraft/advanced_items/CitrineArmorItem.java
  com.mustardd.surrealcraft.advanced_items.CitrineArmorItem
 com/mustardd/surrealcraft/advanced_items/SapphireArmorItem.java
@@ -14,7 +14,3 @@ com/mustardd/surrealcraft/init/ItemInit.java
  com.mustardd.surrealcraft.init.ItemInit
 com/mustardd/surrealcraft/advanced_items/RubyArmorItem.java
  com.mustardd.surrealcraft.advanced_items.RubyArmorItem
-com/mustardd/surrealcraft/Surrealcraft.java
- com.mustardd.surrealcraft.Surrealcraft
-com/mustardd/surrealcraft/util/ModArmorMaterial.java
- com.mustardd.surrealcraft.util.ModArmorMaterial
