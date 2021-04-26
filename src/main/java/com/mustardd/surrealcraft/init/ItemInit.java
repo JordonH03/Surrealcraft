@@ -1,10 +1,7 @@
 package com.mustardd.surrealcraft.init;
 
 import com.mustardd.surrealcraft.Surrealcraft;
-import com.mustardd.surrealcraft.advanced_items.CitrineArmorItem;
-import com.mustardd.surrealcraft.advanced_items.CitrineWand;
-import com.mustardd.surrealcraft.advanced_items.RubyArmorItem;
-import com.mustardd.surrealcraft.advanced_items.SapphireArmorItem;
+import com.mustardd.surrealcraft.advanced_items.*;
 import com.mustardd.surrealcraft.util.ModArmorMaterial;
 import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.item.BlockItem;
@@ -30,6 +27,10 @@ public class ItemInit {
     //registers Sapphire gem
     public static final RegistryObject<Item> SAPPHIRE_GEM = ITEMS.register("sapphire_gem",
             () -> new Item(new Item.Properties().tab(ItemGroup.TAB_MISC)));
+
+    // registers Sapphire wand item
+    public static final RegistryObject<SapphireWand> SAPPHIRE_WAND = ITEMS.register("sapphire_wand",
+            () -> new SapphireWand(new Item.Properties().tab(ItemGroup.TAB_COMBAT).stacksTo(1).setNoRepair().durability(50)));
 
     // registers Citrine wand item
     public static final RegistryObject<CitrineWand> CITRINE_WAND = ITEMS.register("citrine_wand",
