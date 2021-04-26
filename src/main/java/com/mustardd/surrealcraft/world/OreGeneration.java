@@ -18,6 +18,8 @@ public class OreGeneration {
         generateOre(event.getGeneration(), OreFeatureConfig.FillerBlockType.NATURAL_STONE, BlockInit.CITRINE_ORE.get().defaultBlockState(), 10, 1, 16, 8);
         // Generate ruby
         generateOre(event.getGeneration(), OreFeatureConfig.FillerBlockType.NATURAL_STONE, BlockInit.RUBY_ORE.get().defaultBlockState(), 10, 1, 16, 8);
+        // Generate sapphire
+        generateOre(event.getGeneration(), OreFeatureConfig.FillerBlockType.NATURAL_STONE, BlockInit.SAPPHIRE_ORE.get().defaultBlockState(), 10, 1, 16, 8);
     }
 
                 // Reusable function for ore generation
