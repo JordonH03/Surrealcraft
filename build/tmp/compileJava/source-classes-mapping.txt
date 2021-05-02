@@ -14,9 +14,9 @@ com/mustardd/surrealcraft/advanced_items/CitrineWand.java
  com.mustardd.surrealcraft.advanced_items.CitrineWand
 com/mustardd/surrealcraft/Surrealcraft.java
  com.mustardd.surrealcraft.Surrealcraft
-com/mustardd/surrealcraft/util/ModArmorMaterial.java
- com.mustardd.surrealcraft.util.ModArmorMaterial
-com/mustardd/surrealcraft/init/ItemInit.java
- com.mustardd.surrealcraft.init.ItemInit
 com/mustardd/surrealcraft/advanced_items/RubyWand.java
  com.mustardd.surrealcraft.advanced_items.RubyWand
+com/mustardd/surrealcraft/init/ItemInit.java
+ com.mustardd.surrealcraft.init.ItemInit
+com/mustardd/surrealcraft/util/ModArmorMaterial.java
+ com.mustardd.surrealcraft.util.ModArmorMaterial
