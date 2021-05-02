@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "# #",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "surrealcraft:citrine_gem"
+    }
+  },
+  "result": {
+    "item": "surrealcraft:citrine_chestplate",
+    "count": 1
+  }
+}

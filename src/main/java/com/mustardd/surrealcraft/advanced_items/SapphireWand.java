@@ -1,6 +1,7 @@
 package com.mustardd.surrealcraft.advanced_items;
 
         import com.mustardd.surrealcraft.init.ItemInit;
+        import net.minecraft.client.util.ITooltipFlag;
         import net.minecraft.entity.player.PlayerEntity;
         import net.minecraft.item.Item;
         import net.minecraft.item.ItemStack;
@@ -10,10 +11,14 @@ package com.mustardd.surrealcraft.advanced_items;
         import net.minecraft.util.ActionResult;
         import net.minecraft.util.ActionResultType;
         import net.minecraft.util.Hand;
+        import net.minecraft.util.text.ITextComponent;
+        import net.minecraft.util.text.StringTextComponent;
         import net.minecraft.world.World;
         import net.minecraftforge.common.Tags;
 
+        import javax.annotation.Nullable;
         import javax.swing.*;
+        import java.util.List;
 
 public class SapphireWand extends Item {
     // Constructor for item
@@ -34,7 +39,19 @@ public class SapphireWand extends Item {
             stack.setCount(0); // Destroys item after 0 durability
         }
 
+
+
         return super.use(world, player, handIn);
 
+    }
+
+    // Adds hover text showing item usages and maximum charges
+    @Override
+    public void appendHoverText(ItemStack itemStack, @Nullable World world, List<ITextComponent> iTextComponents, ITooltipFlag iTooltipFlag) {
+        iTextComponents.add(new StringTextComponent(" "));
+        iTextComponents.add(new StringTextComponent("\u00A77" + "When in main hand:"));
+        iTextComponents.add(new StringTextComponent("\u00A72" + "Right-click to summon lightning strike?"));
+        iTextComponents.add(new StringTextComponent("\u00A72" + "10 charges"));
+        super.appendHoverText(itemStack, world, iTextComponents, iTooltipFlag);
     }
 }

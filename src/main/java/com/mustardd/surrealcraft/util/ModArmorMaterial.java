@@ -30,7 +30,7 @@ public enum ModArmorMaterial implements IArmorMaterial {
             () -> {
         return Ingredient.of(ItemInit.RUBY_GEM.get()); }
     ),
-    SAPPHIRE(Surrealcraft.MOD_ID + ":ruby", 7, new int[]{4, 7, 9, 4}, 0, SoundEvents.ARMOR_EQUIP_DIAMOND, 3.0f, 3.0f,
+    SAPPHIRE(Surrealcraft.MOD_ID + ":sapphire", 7, new int[]{4, 7, 9, 4}, 0, SoundEvents.ARMOR_EQUIP_DIAMOND, 3.0f, 3.0f,
             () -> {
         return Ingredient.of(ItemInit.SAPPHIRE_GEM.get()); }
     );

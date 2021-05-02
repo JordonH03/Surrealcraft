@@ -36,6 +36,10 @@ public class ItemInit {
     public static final RegistryObject<CitrineWand> CITRINE_WAND = ITEMS.register("citrine_wand",
             () -> new CitrineWand(new Item.Properties().tab(ItemGroup.TAB_COMBAT).stacksTo(1).setNoRepair().durability(50)));
 
+    // registers Ruby wand item
+    public static final RegistryObject<RubyWand> RUBY_WAND = ITEMS.register("ruby_wand",
+            () -> new RubyWand(new Item.Properties().tab(ItemGroup.TAB_COMBAT).stacksTo(1).setNoRepair().durability(50)));
+
     // ORE
 
     // registers Citrine ore item (name, location of block the item represents, location in creative mode tab)
