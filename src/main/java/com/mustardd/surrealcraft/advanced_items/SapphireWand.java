@@ -31,15 +31,14 @@ public class SapphireWand extends Item {
     public ActionResult<ItemStack> use(World world, PlayerEntity player, Hand handIn) {
         // Declares the item in hand as a variable
         ItemStack stack = player.getItemInHand(handIn);
-        //add wand effects here
-        //player.setHealth(player.getHealth() + 2); // Heals 3 health (heart and a half)
+        player.getCooldowns().addCooldown(this, 40); // 2 second cooldown
+        //on right click movement speed 9 for 10 seconds
+        player.addEffect(new EffectInstance(Effects.MOVEMENT_SPEED, 200, 100));
 
         stack.setDamageValue(getDamage(stack) + 5); // Adds 5 point of damage to item
         if(stack.getDamageValue() > 50) {
             stack.setCount(0); // Destroys item after 0 durability
         }
-
-
 
         return super.use(world, player, handIn);
 
@@ -50,8 +49,8 @@ public class SapphireWand extends Item {
     public void appendHoverText(ItemStack itemStack, @Nullable World world, List<ITextComponent> iTextComponents, ITooltipFlag iTooltipFlag) {
         iTextComponents.add(new StringTextComponent(" "));
         iTextComponents.add(new StringTextComponent("\u00A77" + "When in main hand:"));
-        iTextComponents.add(new StringTextComponent("\u00A72" + "Right-click to summon lightning strike?"));
-        iTextComponents.add(new StringTextComponent("\u00A72" + "10 charges"));
+        iTextComponents.add(new StringTextComponent("\u00A72" + "Right-click for speed 10s"));
+        iTextComponents.add(new StringTextComponent("\u00A72" + "2 second cooldown"));
         super.appendHoverText(itemStack, world, iTextComponents, iTooltipFlag);
     }
 }
