@@ -65,6 +65,7 @@ public class RubyWand extends Item {
         iTextComponents.add(new StringTextComponent("\u00A77" + "When in main hand:"));
         iTextComponents.add(new StringTextComponent("\u00A72" + "Right-click to launch fireball"));
         iTextComponents.add(new StringTextComponent("\u00A72" + "10 charges"));
+        iTextComponents.add(new StringTextComponent("\u00A76" + "2 second cooldown"));
         super.appendHoverText(itemStack, world, iTextComponents, iTooltipFlag);
     }
 }
