@@ -38,7 +38,7 @@ public class CitrineArmorItem extends ArmorItem {
             player.addEffect(new EffectInstance(Effects.LUCK, 10, 0, false, false));
         }
         if (player.getItemBySlot(EquipmentSlotType.FEET).getItem() instanceof CitrineArmorItem) {
-            player.addEffect(new EffectInstance(Effects.HEALTH_BOOST, 10, 0, false, false));
+            player.addEffect(new EffectInstance(Effects.WATER_BREATHING, 10, 0, false, false));
         }
 
 

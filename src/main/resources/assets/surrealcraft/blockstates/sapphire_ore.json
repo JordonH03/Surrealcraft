@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "surrealcraft:blocks/sapphire_ore"
+      "model": "surrealcraft:block/sapphire_ore"
     }
   }
 }

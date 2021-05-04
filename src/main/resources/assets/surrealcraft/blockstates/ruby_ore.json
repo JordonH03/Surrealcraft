@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "surrealcraft:blocks/ruby_ore"
+      "model": "surrealcraft:block/ruby_ore"
     }
   }
 }
